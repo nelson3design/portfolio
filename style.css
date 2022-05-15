@@ -3,11 +3,631 @@
 :root{
     --violet:#840BE6;
     --yellow:#FFD413;
+    /* --violet: #fe7b23;
+    --yellow: #666666; */
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+.containner{
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    width: 100vw;
+    padding: 80px 0;
+    padding: 5rem 0;
+    background-color: var(--violet);
+}
+
+nav{
+    width: 100%;
+}
+
+.nav-content{
+    height: 100px;
+    display: flex;
+    gap: 50px;
+    gap: 3.125rem;
+    justify-content: end;
+}
+
+.nav-content li{
+   list-style: none;
+   font-size: 20px;
+   font-size: 1.25rem;
+   text-transform: uppercase;
+   font-weight: 600;
+   color: var(--yellow);
+   cursor: pointer;
+}
+.nav-content li a {
+    list-style: none;
+    font-size: 20px;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--yellow);
+    text-decoration: none;
+}
+.icones{
+    display: flex;
+    gap: 50px;
+    gap: 3.125rem;
+}
+
+.icones i {
+   
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: var(--yellow);
+}
+
+/* header-content */
+
+.header-content h6{
+    font-size: 22px;
+    font-size: 1.375rem;
+    color: var(--yellow);
+    font-weight: 500;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header-content h2 {
+    font-size: 50px;
+    font: 3.125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    opacity: .7;
+}
+
+.header-content h4 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    color: white;
+    font-weight: 200;
+    margin-top: 10px;
+    margin-top: 0.625rem;
+}
+
+
+.btn a {
+    width: 230px;
+    width: 14.375rem;
+    height: 50px;
+    height: 3.125rem;
+    border-radius: 10px;
+    border: 2px solid var(--yellow);
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: var(--yellow);
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: 200;
+    margin-top: 35px;
+    margin-top: 2.1875rem;
+}
+
+
+/* resume */
+
+.section-1{
+    width: 100vw;
+   background-color: var(--yellow);
+   padding: 80px 0;
+   padding: 5rem 0;
+}
+.section-1-content{
+    display: grid;
+}
+
+.section-1-title{
+    font-size: 25px;
+    font-size: 1.6525rem;
+    color: var(--violet);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-1-itens{
+    display: flex;
+    padding: 50px 0;
+    padding: 3.125rem 0;
+}
+
+.section-1-iten-1{
+    width: 50%;
+}
+
+.section-1-iten-2 {
+    width: 50%;
+}
+
+.title{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+}
+
+
+
+.exp{
+    margin-top: 70px;
+    margin-top: 4.375rem;
+}
+.expe{
+    font-size: 35px;
+    font-size: 2.1875rem;
+    color: white;
+    width: 70%;
+}
+
+.expe span {
+  
+    color: var(--violet);
+    display: block;
+}
+
+
+
+.experience{
+border-left: 3px solid white;
+padding-left: 10px;
+margin-top: 30px;
+margin-top: 1.875rem;
+}
+.experience h2{
+    font-size: 25px;
+    font-size: 1.5625rem;
+    color: var(--violet);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.experience h6 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.experience h5 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.skills{
+border-left: 3px solid white;
+padding-left: 50px;
+padding-left: 3.125rem;
+}
+.skills-title-1{
+    font-size: 25px;
+    font-size: 1.6525rem;
+    color: var(--violet);
+    text-transform: capitalize;
+    font-weight: 500;
+   
+}
+
+.skills-itens i{
+color: white;
+font-size: 35px;
+font-size: 2.1875rem;
+margin: 10px 20px 30px 0;
+margin: 0.625rem 1.25rem 1.875rem 0;
+}
+
+
+.icon2 {
+    font-size: 80px !important;
+    font-size: 5rem !important;
+
+}
+
+  /* formação */
+
+
+.forma{
+    border-left: 3px solid white;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-top: 1.875rem;
+   
+}
+
+.forma h6 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+
+   
+}
+
+.forma h6 span {
+    font-size: 18px;
+    font-size: 1.125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+
+
+}
+.forma h6 small {
+    font-size: 13px;
+    font-size: 0.8125rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+
+
+}
+
+.forma-content-1{
+    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+}
+
+
+/* work */
+
+
+.section-2{
+    width: 100vw;
+    background-color: var(--violet);
+    padding: 80px 0;
+    padding: 5rem 0;
+}
+
+.section-2-title {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    color: var(--yellow);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+.section-2-text {
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    margin: 30px 0;
+    margin: 1.875rem 0;
+}
+
+.section-1-img{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* gap: 1.875rem; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    width: 300px;
+}
+
+
+.info{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    padding: 10px 0;
+    transition: all .3s;
+}
+.info:hover {
+    transform: scale(1.05);
+}
+.info-title{
+color: var(--violet);
+text-transform: uppercase;
+font-size: 18px;
+font-weight: 600;
+}
+
+.info-text {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+.info-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.info-btn div {
+   border: 2px solid var(--violet);
+   width: 100px;
+   text-align: center;
+   border-radius: 4px;
+ 
+}
+
+.info-btn div a {
+    
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: var(--violet);
+}
+
+.info-btn div:hover {
+  cursor: pointer;
+   background-color: var(--yellow);
+}
+
+.box .img{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all .3s;
+}
+.box .img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.box-1 .img {
+    background-image: url('assets/studion.png');
+   background-size: cover;
+  
+}
+
+.box-2 .img {
+    background-image: url('assets/magbank.jpg');
+    background-size: cover;
+
+}
+
+.box-3 .img {
+    background-image: url('assets/imagiflix-pc.png');
+    background-size: cover;
+
+}
+
+.box-4 .img {
+    background-image: url('assets/nelson-gym.png');
+    background-size: cover;
+
+}
+
+.box-5 .img {
+    background-image: url('assets/nintendo.png');
+    background-size: cover;
+
+}
+
+.box-6 .img {
+    background-image: url('assets/n91store.png');
+    background-size: cover;
+
+}
+
+
+/* contact */
+
+.contact{
+    width: 100vw;
+    background-color: var(--yellow);
+    padding: 80px 0;
+    padding: 5rem 0;
+}
+
+.contact-title{
+    font-size: 25px;
+    font-size: 1.5625rem;
+    color: var(--violet);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    margin-top: 3.125rem;
+}
+
+.form__item-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.form__item-1 .name {
+    width: 50%;
+   
+}
+
+.form__item-1 .email {
+    width: 50%;
+   
+}
+.form label {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--violet);
+  font-weight: 300;
+}
+
+.form__item-1 input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: 2px solid var(--violet);
+    border-radius: 5px;
+}
+
+.form textarea{
+        width: 100%;
+        background: none;
+        border: 2px solid var(--violet);
+        border-radius: 5px;
+}
+
+.form .send {
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background: none;
+    border: 2px solid var(--violet);
+    border-radius: 5px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--violet);
+    font-weight: 300;
+    cursor: pointer;
+}
+.form .send:hover{
+    background-color: var(--violet);
+    color: var(--yellow);
+}
+
+/* footer */
+
+.footer{
+    width: 100vw;
+    background-color: white;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer-icones a {
+text-decoration: none;
+}
+
+.footer-text{
+    font-size: 20px;
+    color: var(--violet);
+}
+
+.footer-icones a i {
+
+    font-size: 20px;
+    color: var(--violet);
+    padding-right: 30px;
+}
+
+.bar-1{
+    width: 100%;
+    height: 30px;
+    background-color: var(--yellow);
+}
+.bar-2 {
+    width: 100%;
+    height: 30px;
+    background-color: var(--violet);
+}
+
+@media (max-width:992px) {
+    :root{
+        font-size: 16px;
+    }
+    .containner{
+        width: 85%;
+    }
+
+        .nav-content {
+          
+            justify-content: center;
+        }
+   .section-1-itens {
+     flex-direction: column;
+      }
+.expe {
+  
+    width: 100%;
+}
+
+.section-1-iten-2 {
+    width: 100%;
+}
+  .section-1-iten-1 {
+       width: 100%;
+     }
+
+ .form {
+     width: 100%;
+     
+ }
+ .form__item-1 {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+     margin-bottom: 20px;
+     margin-bottom: 20px;
+     flex-direction: column;
+ }
+
+
+ .form__item-1 .name {
+     width: 100%;
+
+ }
+
+ .form__item-1 .email {
+     width: 100%;
+
+ }
+
+ .footer-content {
+   
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+ }
+ .footer-text {
+    text-align: center;
+    font-size: 15px;
+ }
 }
