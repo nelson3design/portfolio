@@ -56,6 +56,20 @@ nav{
     font-weight: 600;
     color: var(--yellow);
     text-decoration: none;
+    transition: color .3s;
+}
+.nav-content li a:hover{
+    color: white !important;
+    
+}
+
+#active{
+    color: white!important;
+    transition: color .3s;
+}
+
+#active:hover {
+    color: var(--yellow)!important;
 }
 .icones{
     display: flex;
@@ -68,6 +82,11 @@ nav{
     font-size: 20px;
     font-size: 1.25rem;
     color: var(--yellow);
+    transition: color .3s;
+}
+.icones i:hover {
+    color: white;
+  
 }
 
 /* header-content */
@@ -121,6 +140,15 @@ nav{
     font-weight: 200;
     margin-top: 35px;
     margin-top: 2.1875rem;
+   
+    transition: background .5s;
+   
+
+}
+.btn a:hover{
+    background: var(--yellow);
+    color: var(--violet);
+    
 }
 
 
@@ -375,7 +403,7 @@ font-weight: 600;
    width: 100px;
    text-align: center;
    border-radius: 4px;
- 
+transition: background .5s;
 }
 
 .info-btn div a {
@@ -385,11 +413,12 @@ font-weight: 600;
   text-transform: uppercase;
   font-weight: 300;
   color: var(--violet);
+  
 }
 
 .info-btn div:hover {
   cursor: pointer;
-   background-color: var(--yellow);
+   background: var(--yellow);
 }
 
 .box .img{
@@ -524,9 +553,11 @@ font-weight: 600;
     color: var(--violet);
     font-weight: 300;
     cursor: pointer;
+    transition: background .5s;
+   
 }
 .form .send:hover{
-    background-color: var(--violet);
+    background: var(--violet);
     color: var(--yellow);
 }
 
@@ -556,6 +587,11 @@ text-decoration: none;
     font-size: 20px;
     color: var(--violet);
     padding-right: 30px;
+    transition: color .3s;
+}
+
+.footer-icones a i:hover{
+color: var(--yellow);
 }
 
 .bar-1{
@@ -583,6 +619,7 @@ text-decoration: none;
         }
    .section-1-itens {
      flex-direction: column;
+     gap: 70px;
       }
 .expe {
   
