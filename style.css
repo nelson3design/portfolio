@@ -354,7 +354,7 @@ margin: 0.625rem 1.25rem 1.875rem 0;
 .section-1-img{
     width: 100%;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     /* gap: 1.875rem; */
     flex-wrap: wrap;
     justify-content: center;
