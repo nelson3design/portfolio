@@ -569,6 +569,7 @@ transition: background .5s;
 
 .footer{
     width: 100vw;
+     width: 100%;
     background-color: white;
 }
 .footer-content{
