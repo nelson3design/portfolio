@@ -22,6 +22,7 @@
 
 header{
     width: 100vw;
+     width: 100%;
     padding: 80px 0;
     padding: 5rem 0;
     background-color: var(--violet);
@@ -156,6 +157,7 @@ nav{
 
 .section-1{
     width: 100vw;
+     width: 100%;
    background-color: var(--yellow);
    padding: 80px 0;
    padding: 5rem 0;
@@ -327,6 +329,7 @@ margin: 0.625rem 1.25rem 1.875rem 0;
 
 .section-2{
     width: 100vw;
+     width: 100%;
     background-color: var(--violet);
     padding: 80px 0;
     padding: 5rem 0;
@@ -354,7 +357,7 @@ margin: 0.625rem 1.25rem 1.875rem 0;
 .section-1-img{
     width: 100%;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     /* gap: 1.875rem; */
     flex-wrap: wrap;
     justify-content: center;
@@ -477,6 +480,7 @@ transition: background .5s;
 
 .contact{
     width: 100vw;
+     width: 100%;
     background-color: var(--yellow);
     padding: 80px 0;
     padding: 5rem 0;
@@ -565,6 +569,7 @@ transition: background .5s;
 
 .footer{
     width: 100vw;
+     width: 100%;
     background-color: white;
 }
 .footer-content{
@@ -668,9 +673,12 @@ color: var(--yellow);
     font-size: 15px;
  }
 }
+<<<<<<< HEAD
 
 
 .error{
     color: red;
     font-size: 11px;
 }
+=======
+>>>>>>> 4613e7d5787dcb6ae7175116d0c0e457dfa86f54
