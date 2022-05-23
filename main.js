@@ -89,3 +89,44 @@ let validator={
 var form= document.querySelector('.form')
 
 form.addEventListener('submit',validator.btnSubmit)
+
+
+
+
+
+
+
+
+fetch('https://api.github.com/users/nelson3design/repos?page=2&per_page=18')
+.then(response=>response.json())
+.then(response=>{
+    console.log(response)
+   
+    console.log(response[12].html_url)
+   var studion=document.querySelector('.studion')
+   studion.href=response[12].html_url
+
+
+})
+
+fetch('https://api.github.com/users/nelson3design/repos')
+.then(response=>response.json())
+.then(response=>{
+    console.log(response)
+    console.log(response[17].html_url)
+    console.log(response[18].html_url)
+    console.log(response[19].html_url)
+    console.log(response[13].html_url)
+   var magic=document.querySelector('.magic')
+   magic.href=response[17].html_url
+
+   var desafio=document.querySelector('.desafio')
+   desafio.href=response[18].html_url
+
+   var imagi=document.querySelector('.imagi')
+   imagi.href=response[19].html_url
+
+
+   var nintendo=document.querySelector('.nintendo')
+   nintendo.href=response[13].html_url
+})
