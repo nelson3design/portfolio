@@ -668,3 +668,9 @@ color: var(--yellow);
     font-size: 15px;
  }
 }
+
+
+.error{
+    color: red;
+    font-size: 11px;
+}
