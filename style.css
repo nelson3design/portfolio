@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root{
-    --violet:#840BE6;
+    --violet:#8504bc;
     --yellow:#FFD413;
     /* --violet: #fe7b23;
     --yellow: #666666; */
@@ -273,9 +273,25 @@ margin: 0.625rem 1.25rem 1.875rem 0;
 
 
 .icon2 {
-    font-size: 80px !important;
+    
     font-size: 5rem !important;
 
+}
+
+.icon3 {
+  
+    font-size: 3rem!important;
+   margin-left: 220px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+   gap: 0;
+}
+
+.liquid{
+    width: 45px;
 }
 
   /* formação */
@@ -673,12 +689,22 @@ color: var(--yellow);
     font-size: 15px;
  }
 }
-<<<<<<< HEAD
+
 
 
 .error{
     color: red;
     font-size: 11px;
 }
-=======
->>>>>>> 4613e7d5787dcb6ae7175116d0c0e457dfa86f54
+
+
+.parallaxParent {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallaxParent>* {
+    height: 200%;
+    position: relative;
+    top: -100%;
+}
