@@ -131,5 +131,18 @@ fetch('https://api.github.com/users/nelson3design/repos')
    nintendo.href=response[13].html_url
 })
 
+var btnDoubleBase = document.getElementById("btnDoubleBase")
+var btnDoubleBase2 = document.getElementById("btnDoubleBase2")
+var btnDouble = document.getElementById("btnDouble")
+var btnDouble2 = document.getElementById("btnDouble2")
+
+btnDouble.addEventListener('click',()=>{
+    btnDoubleBase.classList.toggle('show')
+    btnDoubleBase2.style.display = "none"
+})
+btnDouble2.addEventListener('click', () => {
+    btnDoubleBase2.classList.toggle('show')
+    btnDoubleBase.style.display = "none"
+})
 
 
