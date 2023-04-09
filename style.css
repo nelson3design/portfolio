@@ -518,6 +518,11 @@ background-color: white;
     background-size: cover;
 
 }
+.box-7 .img {
+    background-image: url('assets/elements.jpg');
+    background-size: cover;
+
+}
 
 
 /* contact */
