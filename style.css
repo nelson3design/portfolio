@@ -302,6 +302,8 @@ margin: 0.625rem 1.25rem 1.875rem 0;
     padding-left: 10px;
     margin-top: 30px;
     margin-top: 1.875rem;
+    display: grid;
+    gap: 20px;
    
 }
 
@@ -334,10 +336,10 @@ margin: 0.625rem 1.25rem 1.875rem 0;
 
 }
 
-.forma-content-1{
+/* .forma-content-1{
     margin-bottom: 30px;
     margin-bottom: 1.875rem;
-}
+} */
 
 
 /* work */
