@@ -15,6 +15,9 @@
     box-sizing: border-box;
    
 }
+main{
+    overflow: hidden;
+}
 
 .containner{
     width: 70%;
@@ -695,6 +698,7 @@ color: var(--yellow);
         }
     .icones{
         gap: 30px;
+
     }
     .see_more_text{
         width: 100%;
@@ -763,6 +767,9 @@ color: var(--yellow);
  .nav-content li a {
     font-size: 1rem;
  }
+ .icones i{
+    font-size: 1rem;
+ }
 }
 
 
@@ -787,7 +794,12 @@ color: var(--yellow);
 @media (max-width:600px) {
     .nav-content {
     
-            justify-content: center;
+            justify-content: space-between;
            
         }
+                  .icones {
+                      gap: 0px;
+                      justify-content: space-between;
+                      width: 40%;
+                  }
 }
