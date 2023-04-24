@@ -146,3 +146,9 @@ btnDouble2.addEventListener('click', () => {
 })
 
 
+var btn_see = document.querySelector('.btn_see')
+
+var see_more_text = document.querySelector('.see_more_text')
+btn_see.addEventListener("click",()=>{
+    see_more_text.classList.toggle('show_text')
+})
